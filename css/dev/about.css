@@ -19,6 +19,9 @@
   flex: 1 1;
 }
 
+.blockhead--center {
+  justify-content: center;
+}
 .content-about {
   display: grid;
   gap: 1rem;
@@ -192,9 +195,11 @@
     flex: 1 1 50rem;
   }
 }
-@media (min-width: 48.12375em) {
-  .blockhead {
-    justify-content: left;
+@media (min-width: 48.06125em) {
+  .about__blockhead--left {
+    text-align: left;
+    justify-content: center;
+    justify-items: start;
   }
 }
 @media (min-width: 89.375em) {

@@ -520,6 +520,9 @@ body {
   justify-items: center;
   text-wrap: balance;
 }
+.blockhead--center {
+  justify-content: center;
+}
 .blockhead--gap-8 {
   gap: 0.5rem;
 }
